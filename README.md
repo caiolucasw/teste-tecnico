@@ -27,14 +27,18 @@
   
 ## Testar localmente
 ### Para criação da imagem e do container, digite os seguintes comandos na base desse projeto:
-
-```bash
-docker build -t teste-tecnico .
-```
-
-```bash
-docker run -d -p 5173:5173 -p 3000:3000 teste-tecnico
-```
+  1. Clonar este repositório: <br />
+     ```bash
+        git clone https://github.com/caiolucasw/teste-tecnico.git
+      ```
+  2. Rodar estes comandos na root do projeto: <br />
+     ```bash
+      docker build -t teste-tecnico .
+     ```
+     
+     ```bash
+      docker run -d -p 5173:5173 -p 3000:3000 teste-tecnico
+     ```
 
 ## Autor
  ### Caio Lucas Silveira de Sousa <br><br> [![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/caiolsds)
