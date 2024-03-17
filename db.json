@@ -1,0 +1,143 @@
+{
+  "info-pizzas": {
+    "tamanhos": [
+      {
+        "label": "Pequena",
+        "value": "pequena",
+        "preco": 20.2,
+        "tempo_preparo": 15
+      },
+      {
+        "label": "Média",
+        "value": "media",
+        "preco": 30.3,
+        "tempo_preparo": 20
+      },
+      {
+        "label": "Grande",
+        "value": "grande",
+        "preco": 40,
+        "tempo_preparo": 25
+      }
+    ],
+    "sabores": [
+      {
+        "label": "Portuguesa",
+        "value": "portuguesa",
+        "tempo_adicional": 5
+      },
+      {
+        "label": "Marguerita",
+        "value": "marguerita",
+        "tempo_adicional": 0
+      },
+      {
+        "label": "Calabresa",
+        "value": "calabresa",
+        "tempo_adicional": 0
+      }
+    ],
+    "personalizacoes": [
+      {
+        "label": "Extra Bacon",
+        "value": "extra_bacon",
+        "valor_adicional": 3,
+        "tempo_adicional": 0
+      },
+      {
+        "label": "Sem cebola",
+        "value": "sem_cebola",
+        "valor_adicional": 0,
+        "tempo_adicional": 0
+      },
+      {
+        "label": "Borda recheada",
+        "value": "borda_recheada",
+        "valor_adicional": 5,
+        "tempo_adicional": 5
+      }
+    ]
+  },
+  "pedidos": [
+    {
+      "id": "4d5c",
+      "tamanho": "pequena",
+      "sabor": "portuguesa",
+      "personalizar": {
+        "extra_bacon": true,
+        "sem_cebola": false,
+        "borda_recheada": true
+      }
+    },
+    {
+      "id": "7149",
+      "tamanho": "pequena",
+      "sabor": "portuguesa",
+      "personalizar": {
+        "extra_bacon": true,
+        "sem_cebola": false,
+        "borda_recheada": true
+      }
+    },
+    {
+      "id": "715d",
+      "tamanho": "media",
+      "sabor": "portuguesa",
+      "personalizar": {
+        "extra_bacon": false,
+        "sem_cebola": true,
+        "borda_recheada": true
+      }
+    },
+    {
+      "id": "c62f",
+      "tamanho": "media",
+      "sabor": "marguerita",
+      "personalizar": {
+        "extra_bacon": false,
+        "sem_cebola": true,
+        "borda_recheada": true
+      }
+    },
+    {
+      "id": "a434",
+      "tamanho": "media",
+      "sabor": "portuguesa",
+      "personalizar": {
+        "extra_bacon": true,
+        "sem_cebola": true,
+        "borda_recheada": true
+      }
+    },
+    {
+      "id": "283d",
+      "tamanho": "media",
+      "sabor": "marguerita",
+      "personalizar": {
+        "extra_bacon": false,
+        "sem_cebola": false,
+        "borda_recheada": false
+      }
+    },
+    {
+      "id": "f94c",
+      "tamanho": "media",
+      "sabor": "marguerita",
+      "personalizar": {
+        "extra_bacon": false,
+        "sem_cebola": true,
+        "borda_recheada": false
+      }
+    },
+    {
+      "id": "8f90",
+      "tamanho": "media",
+      "sabor": "marguerita",
+      "personalizar": {
+        "extra_bacon": true,
+        "sem_cebola": false,
+        "borda_recheada": true
+      }
+    }
+  ]
+}
